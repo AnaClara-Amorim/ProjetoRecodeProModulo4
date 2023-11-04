@@ -6,6 +6,12 @@
 <meta charset="UTF-8">
 <title>Cadastro</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<style>
+    body{
+        background-color: rgb(112, 90, 112);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
 </head>
 <body>
 <div class="container mt-5">

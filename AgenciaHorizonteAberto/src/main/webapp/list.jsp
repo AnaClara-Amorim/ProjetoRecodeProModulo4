@@ -7,11 +7,17 @@
 <meta charset="ISO-8859-1">
 <title>Listagem de usuários</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+    body{
+        background-color: rgb(112, 90, 112);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
 </head>
 <body>
 	<div class="container mt-4">
-    <h1>Lista de Usuários</h1>
-    <a href="cadastro.jsp" class="btn btn-dark">Criar Usuário</a>
+    <h1 class="text-center">Lista de Usuários</h1>
+    <a href="cadastro.jsp" class="btn btn-dark mb-4 d-flex align-items-center justify-content-center">Criar Usuário</a>
     
     <table class="table table-striped">
         <thead>
