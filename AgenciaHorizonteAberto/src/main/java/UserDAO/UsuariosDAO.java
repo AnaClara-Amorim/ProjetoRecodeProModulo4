@@ -79,7 +79,7 @@ public class UsuariosDAO extends Usuarios{
 		}	
 	
 	public static void update (Usuarios usuario) {
-		String sql = "UPDATE Usarios SET nome = ?, endereco = ?, email = ?, senha = ? WHERE idUsuario = ? ";
+		String sql = "UPDATE usuarios SET nome = ?, endereco = ?, email = ?, senha = ? WHERE idUsuario = ? ";
 		Connection conn = null;
 
 		PreparedStatement pstm = null;

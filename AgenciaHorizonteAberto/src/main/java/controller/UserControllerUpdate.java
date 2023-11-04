@@ -49,12 +49,14 @@ public class UserControllerUpdate extends HttpServlet {
 		
 		try {
 			UsuariosDAO.update(user);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
+			
 		}
 		
-		
-		response.sendRedirect("/AgenciaHorizonteAberto/");
+	
 	}
+	
 
 }
