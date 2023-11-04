@@ -89,12 +89,12 @@ public class UsuariosDAO extends Usuarios{
 				pstm = conn.prepareStatement(sql);
 				
 
-				pstm.setString(1, usuario.getNome());
-				pstm.setString(2, usuario.getEndereco());	
-				pstm.setString(3, usuario.getEmail());
-				pstm.setInt(4, usuario.getIdUsuario());		
-				pstm.setString(5, usuario.getSenha());	
-				pstm.execute();
+				 pstm.setString(1, usuario.getNome());
+				 pstm.setString(2, usuario.getEndereco());
+				 pstm.setString(3, usuario.getEmail());
+				 pstm.setString(4, usuario.getSenha());
+				 pstm.setInt(5, usuario.getIdUsuario());
+				 pstm.execute();
 			
 
 			} catch (Exception e) {
